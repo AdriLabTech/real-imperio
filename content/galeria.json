@@ -1,1 +1,8 @@
-{ "descripciones": {}, "videos": [] }
+{
+  "descripciones": {
+    "icono.jpg": {
+      "titulo": "icono.jpg"
+    }
+  },
+  "videos": []
+}

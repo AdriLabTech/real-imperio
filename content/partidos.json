@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "fecha": "2026-11-22 17:02",
+    "rival": "NADIE",
+    "local": true,
+    "lugar": "Selesianos",
+    "competicion": "Amistoso",
+    "goles": [0, 0]
+  }
+]
