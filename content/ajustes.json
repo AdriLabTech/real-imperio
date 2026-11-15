@@ -1,6 +1,20 @@
 {
-  "whatsapp": { "number": "34644250482", "display": "644 25 04 82" },
+  "whatsapp": {
+    "number": "34644250482",
+    "display": "644 25 04 82"
+  },
   "socials": [
-    { "id": "instagram", "label": "Instagram", "handle": "@realimperio_fc", "url": "https://www.instagram.com/realimperio_fc" }
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "handle": "@realimperio_fc",
+      "url": "https://www.instagram.com/realimperio_fc"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "handle": "@real_imperiofc",
+      "url": "https://www.tiktok.com/@real_imperiofc?_r=1&_t=ZN-9BPjFsB9blu"
+    }
   ]
 }
