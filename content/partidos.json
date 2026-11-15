@@ -1,10 +1,122 @@
 [
   {
-    "fecha": "2026-11-22 17:02",
-    "rival": "NADIE",
+    "fecha": "2026-02-22 10:30",
+    "rival": "Chiflones FC",
+    "local": true,
+    "lugar": "Cervantes",
+    "competicion": "Amistoso",
+    "goles": [3, 7]
+  },
+  {
+    "fecha": "2026-03-06 19:20",
+    "rival": "Callejón CF",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [7, 6]
+  },
+  {
+    "fecha": "2026-04-24 20:30",
+    "rival": "Eagles Redux FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [7, 5]
+  },
+  {
+    "fecha": "2026-05-03 11:00",
+    "rival": "Parcileños FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [9, 2]
+  },
+  {
+    "fecha": "2026-05-10 16:00",
+    "rival": "Black Demons FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [5, 15]
+  },
+  {
+    "fecha": "2026-05-15 20:30",
+    "rival": "Fuensanta FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [6, 7]
+  },
+  {
+    "fecha": "2026-05-31 20:00",
+    "rival": "Eagles Redux FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [5, 12]
+  },
+  {
+    "fecha": "2026-06-07 18:00",
+    "rival": "Crodoba Leons FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [6, 5]
+  },
+  {
+    "fecha": "2026-06-12 19:00",
+    "rival": "Naranjo FC",
+    "local": true,
+    "lugar": "CD Selesianos",
+    "competicion": "Copa Barrio del Naranjo",
+    "goles": [5, 13]
+  },
+  {
+    "fecha": "2026-06-21 21:00",
+    "rival": "R3C FC",
+    "local": true,
+    "lugar": "El Carmen",
+    "competicion": "Amistoso",
+    "goles": [3, 10]
+  },
+  {
+    "fecha": "2026-07-16 14:00",
+    "rival": "Atletico FC",
     "local": true,
     "lugar": "Selesianos",
+    "competicion": "Liga Summer Kings Supreme J2",
+    "goles": [1, 4]
+  },
+  {
+    "fecha": "2026-07-19 14:00",
+    "rival": "Alius FC",
+    "local": true,
+    "lugar": "Selesianos",
+    "competicion": "Liga Summer Kings Supreme J3",
+    "goles": [3, 13]
+  },
+  {
+    "fecha": "2026-09-02 22:30",
+    "rival": "Shukyo",
+    "local": true,
+    "lugar": "El Carmen",
     "competicion": "Amistoso",
-    "goles": [0, 0]
+    "goles": [13, 10]
+  },
+  {
+    "fecha": "2026-09-18 20:30",
+    "rival": "Rayo VayaCaño",
+    "local": true,
+    "lugar": "Selesianos",
+    "competicion": "Liga Supreme",
+    "goles": [3, 4]
+  },
+  {
+    "fecha": "2026-09-27 13:00",
+    "rival": "Cordobesistas",
+    "local": true,
+    "lugar": "Selesianos",
+    "competicion": "Liga Supreme",
+    "goles": [4, 8]
   }
 ]
