@@ -25,5 +25,32 @@
       "Pase": 80,
       "Velocidad": 60
     }
+  },
+  "Carlos_Mesa_Delantero": {
+    "dorsal": 16,
+    "apodo": "Mesa",
+    "edad": 16,
+    "altura": "1,75",
+    "pie": "Derecho",
+    "nacionalidad": "Español",
+    "bio": "Mucha Mierda",
+    "stats": {
+      "Remate": 90,
+      "Regate": 80
+    }
+  },
+  "Sergio_Álvarez_Maya_Delantero": {
+    "dorsal": 7,
+    "apodo": "MAYA",
+    "edad": 16,
+    "altura": "1,71",
+    "pie": "Derecho",
+    "nacionalidad": "Español",
+    "bio": "Se deja la piel en cada partido que juega",
+    "stats": {
+      "Regate": 95,
+      "Tiro": 90,
+      "Potencia": 85
+    }
   }
 }
