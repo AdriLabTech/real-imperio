@@ -1,0 +1,25 @@
+// Prueba del formulario → WhatsApp. Uso: node scripts/whatsapp-test.mjs <url>
+import { chromium } from "@playwright/test";
+const url = process.argv[2];
+const b = await chromium.launch({ executablePath: "/usr/bin/chromium" });
+const p = await b.newPage();
+await p.addInitScript(() => { window.__opened = []; window.open = (u) => { window.__opened.push(u); return null; }; });
+await p.goto(url, { waitUntil: "networkidle" });
+await p.evaluate(() => sessionStorage.setItem("intro", "1")); await p.reload({ waitUntil: "networkidle" });
+let bad = 0; const check = (c, m) => { console.log((c ? "✓ " : "✗ ") + m); if (!c) bad = 1; };
+await p.locator("#contacto form").scrollIntoViewIfNeeded();
+await p.click("button[type=submit]"); await p.waitForTimeout(400);
+check((await p.evaluate(() => window.__opened.length)) === 0, "formulario vacío: NO abre WhatsApp");
+check((await p.locator("p[role=alert]").count()) >= 2, "formulario vacío: muestra errores");
+const d = new Date(Date.now() + 20 * 864e5).toISOString().slice(0, 10);
+await p.fill("#f-teamName", "Atlético Prueba <b>FC</b>"); await p.fill("#f-proposedDate", d); await p.fill("#f-city", "Sevilla"); await p.fill("#f-comments", "Con árbitro & balón");
+await p.click("button[type=submit]"); await p.waitForTimeout(600);
+const opened = await p.evaluate(() => window.__opened);
+check(opened.length === 1, "formulario válido: abre WhatsApp una vez");
+const u = new URL(opened[0]); const text = u.searchParams.get("text");
+check(u.origin + u.pathname === "https://wa.me/34644250482", "destino wa.me/34644250482");
+check(text.includes("*Equipo:* Atlético Prueba FC") && !text.includes("<b>"), "equipo saneado");
+check(text.includes("*Localidad:* Sevilla") && text.includes("Con árbitro & balón"), "campos opcionales y caracteres especiales");
+console.log("--- mensaje ---\n" + text);
+check(await p.locator("text=Pulsa «Enviar» allí").count() === 1, "pantalla honesta: indica que aún no se ha enviado");
+await b.close(); process.exit(bad);

@@ -1,0 +1,8 @@
+[
+  { "fecha": "2026-11-28 18:30", "rival": "Rival Demo A", "local": true, "lugar": "Campo Demo", "competicion": "Liga", "nota": "Apertura de puertas 60 min antes." },
+  { "fecha": "2026-12-05 12:00", "rival": "Rival Demo B", "local": false, "lugar": "Campo B", "competicion": "Liga" },
+  { "fecha": "2026-12-12 17:00", "rival": "Rival Demo C", "local": true, "competicion": "Copa" },
+  { "fecha": "2026-11-08 18:00", "rival": "Rival Demo E", "local": true, "competicion": "Liga", "goles": [3, 1] },
+  { "fecha": "2026-11-01 12:00", "rival": "Rival Demo F", "local": false, "competicion": "Liga", "goles": [1, 1] },
+  { "fecha": "2026-10-25 17:00", "rival": "Rival Demo G", "local": true, "competicion": "Copa", "goles": [0, 2] }
+]

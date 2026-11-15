@@ -1,0 +1,101 @@
+{
+  "Carlos_Mendoza_Ruiz_Portero": {
+    "dorsal": 1,
+    "edad": 31,
+    "altura": "1,89 m",
+    "pie": "Derecho",
+    "bio": "Reflejos de gato y voz de mando bajo palos.",
+    "stats": {
+      "Paradas": 84,
+      "Juego aéreo": 78,
+      "Salida": 66
+    }
+  },
+  "Javier_Ortega_Lara_Lateral": {
+    "dorsal": 2,
+    "edad": 23,
+    "altura": "1,74 m",
+    "pie": "Derecho",
+    "bio": "Sube la banda como si llegara tarde a algún sitio.",
+    "stats": {
+      "Velocidad": 88,
+      "Centros": 74,
+      "Defensa": 70
+    }
+  },
+  "Diego_Salcedo_Vega_Central": {
+    "dorsal": 4,
+    "apodo": "El Muro",
+    "edad": 29,
+    "altura": "1,87 m",
+    "pie": "Derecho",
+    "bio": "Capitán. Gana los duelos aéreos y los de vestuario.",
+    "stats": {
+      "Defensa": 86,
+      "Físico": 82,
+      "Pase": 64
+    }
+  },
+  "Marcos_Villalba_Pinto_Pivote": {
+    "dorsal": 6,
+    "edad": 26,
+    "altura": "1,81 m",
+    "pie": "Ambos",
+    "bio": "Recupera, ordena y pasa. Sin focos y sin quejas.",
+    "stats": {
+      "Recuperación": 85,
+      "Pase": 79,
+      "Visión": 72
+    }
+  },
+  "Raul_Navarro_Gil_Interior": {
+    "dorsal": 8,
+    "edad": 25,
+    "altura": "1,78 m",
+    "pie": "Derecho",
+    "bio": "Pulmones de maratoniano y llegada desde segunda línea.",
+    "stats": {
+      "Resistencia": 91,
+      "Llegada": 77,
+      "Pase": 73
+    }
+  },
+  "Andres_Quiroga_Bell_Mediapunta": {
+    "dorsal": 10,
+    "apodo": "El Mago",
+    "edad": 24,
+    "altura": "1,72 m",
+    "pie": "Izquierdo",
+    "bio": "Cuando recibe entre líneas, el estadio contiene el aliento.",
+    "stats": {
+      "Regate": 90,
+      "Visión": 88,
+      "Disparo": 78
+    }
+  },
+  "Hugo_Cabrera_Soto_Extremo": {
+    "dorsal": 7,
+    "edad": 21,
+    "altura": "1,70 m",
+    "pie": "Izquierdo",
+    "bio": "Encara, desborda y se divierte, en ese orden.",
+    "stats": {
+      "Regate": 89,
+      "Velocidad": 92,
+      "Definición": 74
+    }
+  },
+  "Alvaro_Benitez_Roca_Delantero": {
+    "dorsal": 9,
+    "apodo": "9 de área",
+    "edad": 28,
+    "altura": "1,84 m",
+    "pie": "Derecho",
+    "bio": "Vive entre centrales. Su mejor amigo es el segundo palo.",
+    "stats": {
+      "Definición": 90,
+      "Remate": 85,
+      "Físico": 79
+    }
+  }
+}
