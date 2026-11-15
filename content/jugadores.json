@@ -13,19 +13,6 @@
       "Velocidad": 80
     }
   },
-  "Victor_Manuel_Conejo_Izquierdo_CAPITÁN_Medio": {
-    "dorsal": 9,
-    "apodo": "conejo jr",
-    "edad": 16,
-    "altura": "1,78",
-    "pie": "Derecho",
-    "nacionalidad": "Española",
-    "bio": "Capitán. Yo simplemente sigo avanzando como un balón de futbol que acaba de ser pasado",
-    "stats": {
-      "Pase": 80,
-      "Velocidad": 60
-    }
-  },
   "Carlos_Mesa_Delantero": {
     "dorsal": 16,
     "apodo": "Mesa",
@@ -39,18 +26,33 @@
       "Regate": 80
     }
   },
-  "Sergio_Álvarez_Maya_Delantero": {
+  "Sergio_Álvarez_Maya_-_MVP_Goles_Delantero": {
     "dorsal": 7,
     "apodo": "MAYA",
     "edad": 16,
     "altura": "1,71",
     "pie": "Derecho",
     "nacionalidad": "Español",
-    "bio": "Se deja la piel en cada partido que juega",
+    "bio": "Máximo goleador del equipo: Se deja la piel en cada partido que juega",
     "stats": {
-      "Regate": 95,
-      "Tiro": 90,
-      "Potencia": 85
+      "Pase": 80,
+      "Visión de Juego": 90,
+      "Pase Rapido": 85,
+      "Remate": 95,
+      "Goles": 23
+    }
+  },
+  "Victor_Manuel_Conejo_Izquierdo_-_CAPITÁN_Medio": {
+    "dorsal": 9,
+    "apodo": "conejo jr",
+    "edad": 16,
+    "altura": "1,78",
+    "pie": "Derecho",
+    "nacionalidad": "Española",
+    "bio": "Capitán. Yo simplemente sigo avanzando como un balón de futbol que acaba de ser pasado",
+    "stats": {
+      "Pase": 80,
+      "Velocidad": 60
     }
   }
 }
