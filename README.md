@@ -79,6 +79,8 @@ npm run dev          # http://localhost:3000  (contenido real)
 npm run dev:demo     # lo mismo con jugadores/partidos de ejemplo de /content-demo
 ```
 
+La web publicada siempre lee `content/` y `public/`. `dev:demo` es solo una vista local con `content-demo/` y fotos de prueba: lo que veas ahí no se publica salvo que lo copies a `content/` o lo añadas desde el panel.
+
 ## Publicar en GitHub Pages (una sola vez)
 1. Sube el repo a GitHub (rama `main`).
 2. **Settings → Pages → Source: «GitHub Actions»**.

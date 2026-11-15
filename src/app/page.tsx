@@ -17,7 +17,6 @@ export const dynamic = "force-static";
 export default function Home() {
   const c = loadContent(); // se ejecuta al compilar
   const has: Record<string, boolean> = {
-    plantilla: c.players.length > 0,
     galeria: c.gallery.length > 0,
     partidos: c.matches.length > 0,
     comunidad: club.socials.length > 0,
@@ -40,7 +39,7 @@ export default function Home() {
       <main id="main">
         <Hero matches={c.matches} builtAt={c.builtAt} />
         <Club content={c.club} players={c.players} matches={c.matches} />
-        {has.plantilla && <Squad players={c.players} />}
+        <Squad players={c.players} />
         {has.galeria && <Gallery gallery={c.gallery} />}
         {has.partidos && <Matches matches={c.matches} builtAt={c.builtAt} />}
         <Contact />

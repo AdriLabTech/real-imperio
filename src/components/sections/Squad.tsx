@@ -104,6 +104,21 @@ export function Squad({ players }: { players: Player[] }) {
 
   // Arrastrar con ratón para desplazar; en táctil es scroll nativo con snap.
   const drag = useRef({ down: false, x: 0, left: 0, moved: false });
+
+  if (players.length === 0) {
+    return (
+      <section id="plantilla" className="relative py-28 md:py-40" aria-label="Plantilla">
+        <div className="gutter"><SectionHead index="02" kicker="Plantilla" title="Los que salen al campo." outline="11" /></div>
+        <div className="gutter mt-12">
+          <div className="border border-paper/15 p-8 md:p-12">
+            <p className="mono text-primary">Plantilla en preparación</p>
+            <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">Todavía no hay jugadores publicados. En cuanto se añadan desde el panel, aparecerán aquí con su dorsal, posición y ficha.</p>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   const onDown = (e: React.PointerEvent) => { if (e.pointerType !== "mouse" || !scroller.current) return; drag.current = { down: true, x: e.clientX, left: scroller.current.scrollLeft, moved: false }; };
   const onMove = (e: React.PointerEvent) => { const d = drag.current; if (!d.down || !scroller.current) return; const dx = e.clientX - d.x; if (Math.abs(dx) > 5) d.moved = true; scroller.current.scrollLeft = d.left - dx; };
   const onUp = () => { drag.current.down = false; };
