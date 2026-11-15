@@ -1,1 +1,11 @@
-{}
+{
+  "Jugador_de_Prueba_Delantero": {
+    "dorsal": 1,
+    "apodo": "El tester",
+    "edad": 20,
+    "altura": "1,73",
+    "pie": "Derecho",
+    "nacionalidad": "Española",
+    "bio": "Es un jugador falso, de prueba vaya"
+  }
+}
