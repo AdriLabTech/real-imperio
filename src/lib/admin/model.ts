@@ -150,8 +150,8 @@ export const displayPhone = (n: string) => (/^34\d{9}$/.test(n) ? `${n.slice(2, 
 
 export function validateAjustes(a: Ajustes): string[] {
   const e: string[] = [];
-  if (/^[6-9]\d{8}$/.test(a.whatsapp.number)) e.push("WhatsApp: falta el prefijo de país (para España, 34 delante: 34676514200).");
-  else if (!/^\d{9,15}$/.test(a.whatsapp.number)) e.push("WhatsApp: solo dígitos con prefijo de país, sin + ni espacios (p. ej. 34644250482).");
+  if (/^[6-9]\d{8}$/.test(a.whatsapp.number)) e.push("WhatsApp: falta el prefijo de país (para España, 34 delante: 34600000000).");
+  else if (!/^\d{9,15}$/.test(a.whatsapp.number)) e.push("WhatsApp: solo dígitos con prefijo de país, sin + ni espacios (p. ej. 34600000000).");
   for (const s of a.socials) if (!/^https:\/\//.test(s.url) || !clean(s.label)) e.push(`Red social «${s.label || s.id}»: necesita nombre y una URL que empiece por https://.`);
   return e;
 }

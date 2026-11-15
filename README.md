@@ -90,7 +90,7 @@ La web publicada siempre lee `content/` y `public/`. `dev:demo` es solo una vist
    - Dominio propio: añade `public/CNAME` con tu dominio y define `NEXT_PUBLIC_SITE_URL` y `NEXT_PUBLIC_BASE_PATH=""` en el workflow.
 
 ## Formulario «Proponer partido» → WhatsApp
-GitHub Pages no tiene servidor, así que la web **no puede enviar el WhatsApp sola**. Al rellenar y pulsar el botón se abre WhatsApp (644 25 04 82) con el mensaje ya redactado y **quien propone el partido pulsa «Enviar»**. La pantalla de confirmación lo explica. Para recepción totalmente automática haría falta un servicio externo (WhatsApp Business API o similar).
+GitHub Pages no tiene servidor, así que la web **no puede enviar el WhatsApp sola**. Al rellenar y pulsar el botón se abre WhatsApp (al número de `content/ajustes.json`) con el mensaje ya redactado y **quien propone el partido pulsa «Enviar»**. La pantalla de confirmación lo explica. Para recepción totalmente automática haría falta un servicio externo (WhatsApp Business API o similar).
 
 ## Calidad
 `npm run typecheck` · `npm run lint` · `npm test` · `node scripts/whatsapp-test.mjs <url>` (formulario), `node scripts/carrusel-test.mjs` y `shatter-test.mjs` (plantilla) y `node scripts/admin-test.mjs <url> <foto.jpg> <carpeta>` (panel contra una API de GitHub simulada; necesita un `admin-vault.json` sellado con la contraseña de PRUEBA `clave-de-prueba-larga-0123456789` y repo `demo/prueba`; bórralo después), todos con Chromium · `node scripts/shot.mjs` (capturas).

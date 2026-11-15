@@ -11,7 +11,7 @@ export function SiteTab({ club, setClub, ajustes, setAjustes }: { club: ClubJson
       <Card className="grid gap-4">
         <h3 className="display text-2xl">Contacto por WhatsApp</h3>
         <Field label="Número con prefijo de país, sin + ni espacios" hint={`Recibe las propuestas de partido. Se mostrará como: ${displayPhone(ajustes.whatsapp.number || "")}`}>
-          <Text inputMode="numeric" value={ajustes.whatsapp.number} onChange={(e) => { const n = e.target.value.replace(/\D/g, ""); setAjustes({ ...ajustes, whatsapp: { number: n, display: displayPhone(n) } }); }} placeholder="34644250482" />
+          <Text inputMode="numeric" value={ajustes.whatsapp.number} onChange={(e) => { const n = e.target.value.replace(/\D/g, ""); setAjustes({ ...ajustes, whatsapp: { number: n, display: displayPhone(n) } }); }} placeholder="34600000000" />
         </Field>
       </Card>
       <Card className="grid gap-4">
