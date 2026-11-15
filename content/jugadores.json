@@ -22,8 +22,10 @@
     "nacionalidad": "Español",
     "bio": "Mucha Mierda",
     "stats": {
-      "Remate": 90,
-      "Regate": 80
+      "Presion de juego": 90,
+      "Velocidad": 85,
+      "Remate": 80,
+      "Regate": 70
     }
   },
   "Sergio_Álvarez_Maya_-_MVP_Goles_Delantero": {
