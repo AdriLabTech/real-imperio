@@ -1,14 +1,11 @@
 {
-  "Rick_Sáncehz_Delantero": {
-    "dorsal": 11,
-    "apodo": "El tester",
-    "edad": 70,
-    "altura": "1,90",
+  "Alejandro_Antúnez_Delantero": {
+    "dorsal": 10,
+    "apodo": "Ale",
+    "edad": 16,
+    "altura": "1,70",
     "pie": "Derecho",
     "nacionalidad": "Española",
-    "bio": "Es Rick Sánchez, qué decir de él",
-    "stats": {
-      "Conocimiento del campo": 100
-    }
+    "bio": "Presiono mucho"
   }
 }
