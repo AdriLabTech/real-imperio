@@ -56,5 +56,20 @@
       "Pase": 80,
       "Velocidad": 60
     }
+  },
+  "Adrián_Velasco_Mañas_Defensa": {
+    "dorsal": 44,
+    "apodo": "Velasco",
+    "edad": 20,
+    "altura": "1,71",
+    "pie": "Derecho",
+    "nacionalidad": "Español",
+    "bio": "Creador de la web: Informático aficionado a los deportes exigentes",
+    "stats": {
+      "Defensa": 95,
+      "Ataque": 70,
+      "Regate": 65,
+      "Velocidad": 90
+    }
   }
 }
