@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { clean, validateMatchRequest } from "../src/lib/validation";
 import { buildMessage, whatsappUrl } from "../src/lib/whatsapp";
+import { club } from "../src/config/club";
 import { madridToISO, parsePlayerKey } from "../src/lib/content";
 
 const future = new Date(Date.now() + 10 * 864e5).toISOString().slice(0, 10);
@@ -51,7 +52,7 @@ describe("WhatsApp", () => {
       expect(m).toContain("*Localidad:* Sevilla");
       expect(m).toContain("*Tipo de partido:* Torneo");
       expect(m).not.toContain("Correo");
-      expect(whatsappUrl(r.data).startsWith("https://wa.me/34644250482?text=")).toBe(true);
+      expect(whatsappUrl(r.data).startsWith(`https://wa.me/${club.whatsapp.number}?text=`)).toBe(true);
     }
   });
 });
